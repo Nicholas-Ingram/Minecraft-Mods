@@ -1,0 +1,5 @@
+package com.nicholasingram.tutorial.setup;
+
+public class ServerProxy implements IProxy {
+
+}

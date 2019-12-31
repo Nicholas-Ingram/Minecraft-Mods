@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraft.world.World"/>
+<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+<fullyQualifiedTypeName name="com.nicholasingram.tutorial.setup.IProxy"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.DistExecutor"/>
+<fullyQualifiedTypeName name="com.nicholasingram.tutorial.setup.ServerProxy"/>
+<fullyQualifiedTypeName name="com.nicholasingram.tutorial.setup.ClientProxy"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block.Properties"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="net.minecraft.block.SoundType"/>
+<fullyQualifiedTypeName name="com.nicholasingram.tutorial.blocks.FirstBlock"/>
+<fullyQualifiedTypeName name="net.minecraft.item.BlockItem"/>
+<fullyQualifiedTypeName name="com.nicholasingram.tutorial.setup.ModSetup"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemGroup"/>
+<fullyQualifiedTypeName name="com.nicholasingram.tutorial.blocks.ModBlocks"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item.Properties"/>
+<fullyQualifiedTypeName name="com.nicholasingram.tutorial.Tutorial"/>
+<fullyQualifiedTypeName name="net.minecraftforge.registries.ObjectHolder"/>
+<fullyQualifiedTypeName name="com.nicholasingram.tutorial.items.FirstItem"/>
+</qualifiedTypeNameHistroy>

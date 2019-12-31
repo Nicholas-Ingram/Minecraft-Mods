@@ -1,0 +1,5 @@
+Args: "--inJar", "/Users/nickingram/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.1-30.0.19/forge-1.15.1-30.0.19-injected.jar", "--outJar", "/Users/nickingram/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.1-30.0.19_mapped_snapshot_20190719-1.14.3/forge-1.15.1-30.0.19_mapped_snapshot_20190719-1.14.3.jar", "--logFile", "accesstransform.log", "--atFile", "/Users/nickingram/Desktop/Minecraft Workspace/Tutorial/build/_atJar_-106657849_/parent_at.cfg"
+Classpath: /Users/nickingram/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/1.0.1-milestone.0.1+94458e7/accesstransformers-1.0.1-milestone.0.1+94458e7-fatjar.jar
+WorkDir: /Users/nickingram/Desktop/Minecraft Workspace/Tutorial/build/_atJar_-106657849_
+Main: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

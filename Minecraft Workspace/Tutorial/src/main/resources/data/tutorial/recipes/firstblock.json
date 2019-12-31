@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"#x#",
+		"###"
+	],
+	"key" : {
+		"#": {
+			"item": "minecraft:cobblestone"
+		},
+		"x": {
+			"tag": "forge:dyes/red"
+		}
+	},
+	"result": {
+		"item": "tutorial:firstblock"
+	}
+}

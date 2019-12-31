@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;forge-1.15.1-30.0.19-sources&apos;" deleteContents="true" description="Delete resource &apos;forge-1.15.1-30.0.19-sources&apos;" element1="/forge-1.15.1-30.0.19-sources" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1577752062814"/>
+</session>

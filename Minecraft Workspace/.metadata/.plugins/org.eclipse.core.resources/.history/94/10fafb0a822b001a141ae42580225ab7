@@ -1,0 +1,9 @@
+package com.nicholasingram.tutorial.setup;
+
+public class ModSetup {
+	
+	public void init() {
+		
+	}
+	
+}

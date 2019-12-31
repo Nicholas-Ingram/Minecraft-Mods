@@ -1,0 +1,12 @@
+package com.nicholasingram.tutorial.items;
+
+import net.minecraft.item.Item;
+
+public class FirstItem extends Item {
+
+	public FirstItem() {
+		super(new Item.Properties());
+		// TODO Auto-generated constructor stub
+	}
+
+}

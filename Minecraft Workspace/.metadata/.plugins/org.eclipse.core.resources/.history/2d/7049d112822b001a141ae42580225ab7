@@ -1,0 +1,21 @@
+package com.nicholasingram.tutorial.setup;
+
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+
+public class ModSetup {
+	
+	private ItemGroup itemGroup = new ItemGroup("tutorial") {
+		
+		@Override
+		public ItemStack createIcon() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+	};
+	
+	public void init() {
+		
+	}
+	
+}
