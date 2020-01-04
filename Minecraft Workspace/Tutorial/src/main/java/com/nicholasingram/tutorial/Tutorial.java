@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.tileentity.TileEntityType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -20,6 +21,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.nicholasingram.tutorial.blocks.FirstBlock;
+import com.nicholasingram.tutorial.blocks.FirstBlockTile;
 import com.nicholasingram.tutorial.blocks.ModBlocks;
 import com.nicholasingram.tutorial.items.FirstItem;
 import com.nicholasingram.tutorial.setup.ClientProxy;
@@ -67,6 +69,11 @@ public class Tutorial
         			.group(setup.itemGroup);
         	event.getRegistry().register(new BlockItem(ModBlocks.FIRSTBLOCK, properties).setRegistryName("firstblock"));
         	event.getRegistry().register(new FirstItem());
+        }
+        
+        @SubscribeEvent
+        public static void onTileEntityRegistry(final RegistryEvent.Register<TileEntityType<?>> event) {
+        	event.getRegistry().register(TileEntityType.Builder.create(FirstBlockTile::new, ModBlocks.FIRSTBLOCK).build(null).setRegistryName("firstblock"));
         }
     }
 }
